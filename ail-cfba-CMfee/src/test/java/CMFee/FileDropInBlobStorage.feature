@@ -1,6 +1,6 @@
 Feature: Test file drop in blob storage (ail01d-blob-container-cfba-in)
 
-Scenario: Test sample GET api
+Scenario: Test PUT api
 Given url 'https://ail01dsa.blob.core.windows.net/ail01d-blob-container-cfba-in/cfba-cm/<filename>'
 When method PUT
 Then status 200
